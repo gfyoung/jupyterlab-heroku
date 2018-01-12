@@ -1,4 +1,8 @@
 #!/bin/bash
 
 jupyter serverextension enable --py jupyterlab --sys-prefix
-jupyter lab --port=$PORT --no-browser --ip=*
+
+mkdir -p root
+cd root
+
+jupyter lab --port=$PORT --ip=* --no-browser 
