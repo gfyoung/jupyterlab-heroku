@@ -15,3 +15,8 @@ and store it in the `jupyter_notebook_config.py` file.
 Using a password is recommended if you're using the free plan, since apps under
 that plan get restarted at least once after 24 hours, causing the token to
 get regenerated and revoking access to anyone using the notebook.
+
+Finally, the instance is configured to accept connections from all ports, which
+generally would be considered risky. However, if you have custom certificates
+installed, or you are operating in the `appname.herokuapp.com` domain, traffic
+will be encrypted.
