@@ -8,8 +8,8 @@ Clone this repository, create a new Heroku app, push the code, and that's it!
 You'll have a JupyterLab instance up and running. You can obtain the token by
 running `heroku logs` if you have the `heroku` CLI installed.
 
-If you don't want to have to access the instance via a random token will cause
-the token to be regenerated), you can create a password via `jupyter notebook password`
+If you don't want to have to access the instance via a random token (redeploying
+will cause the token to be regenerated), you can create a password via `jupyter notebook password`
 and store it in the `jupyter_notebook_config.py` file.
 
 Using a password is recommended if you're using the free plan, since apps under
